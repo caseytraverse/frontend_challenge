@@ -114,6 +114,12 @@ p {
   color: #000000;
 }
 
+.iconfont {
+  font-size: .75em;
+  font-style: normal;
+  color: #000000;
+}
+
 .out_of_service h5 {
     width: 40%;
 }
