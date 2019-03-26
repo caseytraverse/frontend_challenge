@@ -11,153 +11,104 @@ body {
   font-family: 'SF Text', sans-serif;
 }
 
-nav {
+#top_nav {
   color: #415A76;
-  box-sizing: border-box;
   height: 90px;
   background-color: #F9F9F9;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 .arrow_left {
-    float: left;
-    width: 30%;
-    padding-left: 10px;
-    padding-top: 18px;
-    font-size: 20px;
+  float: left;
+  width: 24%;
+  padding-left: 10px;
+  padding-top: 18px;
+  font-size: 20px;
 }
 
 .stop {
-    float: left;
-    width: 70%;
-    padding-top: 18px;
-    position: absolute;
-    margin-left: 25%;
+  float: left;
+  width: 70%;
+  padding-top: 18px;
 }
 
 .container {
-    box-sizing: border-box;
-    border-bottom: .5px;
-    max-width: 375px;
-    max-height: 812px;
-    margin: 0 auto;
-    height: 100px;
-    position: relative;
-    z-index: 1;
+  border-bottom: .5px;
+  max-width: 375px;
+  max-height: 812px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+section {
+  position: relative;
 }
 
 .scrollmenu {
-    padding: 1em;
-    height: 140px;
-    position: absolute;
-    z-index: 3;
-    white-space: nowrap;
-    overflow-y: scroll;
+  left: 1rem;
+  top: 1rem;
+  height: 200px;
+  position: absolute;
+  overflow-y: scroll;
 }
 
 div.scrollmenu a {
   display: block;
   color: #000000;
   text-align: left;
-  padding: 14px;
+  padding: 10px;
   text-decoration: none;
   background-color: #FFFFFF;
-  width: 350px;
-  height: 110px;
-}
-
-ul {
-  clear: both;
-  margin: 0;
-  border-bottom: .5px;
-  border-right: 1em;
-}
-
-ul li {
-  list-style-type: none;
-  box-sizing: border-box;
-  float: left;
-  display: block;
-  padding: 10px;
-}
-
-ul::after {
-  content: "";
-  display: block;
+  width: 340px;
+  height: 100px;
 }
 
 #border_line {
-    padding-bottom: 3px;
-    color: #000000;
-    border-bottom: .5px solid #000000;;
+  padding: 3px;
+  border-bottom: 1px solid;
 }
 
 .bus_number {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #415A76;
-  }
+  float: left;
+  width: 20%;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #415A76;
+}
 
 .bus_arrival {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    color: #000000;
-    }
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
 
 .bus_info {
-    float: left;
-    width: 60%;
-    padding: 10px;
-    color: #000000;
-  }
+  float: left;
+  width: 60%;
+  padding: 10px;
+}
 
 p {
   font-size: .75em;
   font-stretch: ultra-expanded;
-  color: #000000;
   padding-top: .5em;
 }
 
 .iconfont {
-    font-size: .75em;
-    font-style: normal;
-    color: #000000;
+  font-size: .75em;
+  font-style: normal;
+  color: #415A76;
 }
 
 .out_of_service h5 {
-    width: 40%;
+  width: 40%;
 }
 
-.map {
-    width: 100%;
-    position: ;
-    z-index: 2;
-}
-
-.btm_icons {
-    float: left;
-    width: 20%;
-    padding: 15px;
-    text-align: justify;
-    z-index: 5;
-    position: relative;
-    background-color: #FFFFFF
-}
-
-.navbar {
-    background-color: #FFFFFF;
-    width: 100%;
-    left: 0px;
-    z-index: 4;
+#btm_icons ul li{
+  float: left;
+  width: 20%;
+  padding: 15px;
 }
 
 @font-face {
